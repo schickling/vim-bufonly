@@ -15,13 +15,13 @@ Aliases: `:Bonly`, `:BOnly`, `:Bufonly`
 
 This plugin follows the standard runtime path structure, and as such it can be installed with a variety of plugin managers:
 
-*  [Pathogen]
+*  Pathogen
   *  `git clone https://github.com/schickling/vim-bufonly ~/.vim/bundle/vim-bufonly`
-*  [NeoBundle]
+*  NeoBundle
   *  `NeoBundle 'schickling/vim-bufonly'`
-*  [Vundle]
+*  Vundle
   *  `Bundle 'schickling/vim-bufonly'`
-*  [VAM]
+*  VAM
   *  `call vam#ActivateAddons([ 'vim-bufonly' ])`
 *  manual
   *  copy all of the files into your `~/.vim` directory
