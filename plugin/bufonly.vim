@@ -6,10 +6,15 @@
 "
 " Usage:
 "
-" :Bonly / :BOnly / :Bufonly / :BufOnly [buffer] 
+" :Bonly / :BOnly / :Bufonly / :BufOnly [buffer]
 "
 " Without any arguments the current buffer is kept.  With an argument the
 " buffer name/number supplied is kept.
+
+if exists('g:BufonlyLoaded') || &cp
+  finish
+end
+let g:BufonlyLoaded = 1
 
 command! -nargs=? -complete=buffer -bang Bonly
     \ :call BufOnly('<args>', '<bang>')
@@ -65,5 +70,7 @@ function! BufOnly(buffer, bang)
 	elseif delete_count > 1
 		echomsg delete_count "buffers deleted"
 	endif
+
+	redraw!
 
 endfunction
