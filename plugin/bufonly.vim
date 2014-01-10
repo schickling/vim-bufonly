@@ -71,6 +71,4 @@ function! BufOnly(buffer, bang)
 		echomsg delete_count "buffers deleted"
 	endif
 
-	redraw!
-
 endfunction
