@@ -6,7 +6,7 @@ Delete all the buffers except the current buffer.
 
 ## Usage
 
-`:BufOnly` without an argument will unload all buffers but the current one.  
+`:BufOnly` without an argument will delete all buffers but the current one.  
 `:BufOnly myBuffer` with an argument will close all buffers but the supplied buffer name/number.
 
 ## Credits
