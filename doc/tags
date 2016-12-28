@@ -1,0 +1,6 @@
+:bufonly	bufonly.txt	/*:BufOnly*
+:bufonly.txt	bufonly.txt	/*bufonly.txt*
+:BufOnly	bufonly.txt	/*:BufOnly*
+:Bonly		bufonly.txt	/*:BufOnly*
+:BOnly		bufonly.txt	/*:BufOnly*
+:Bufonly	bufonly.txt	/*:BufOnly*

@@ -1,0 +1,14 @@
+*bufonly.txt* Delete all the buffers except the current buffer
+
+Author:  Johannes Schickling <http://schickling.me>
+License: Same terms as Vim itself (see |license|)
+
+                                                *:BufOnly*
+:BufOnly               delete all buffers but the current one.  
+
+                                                *:BufOnly*
+:BufOnly myBuffer      delete all buffers but the current one.  
+
+Aliases: `:Bonly`, `:BOnly`, `:Bufonly`
+
+ vim:tw=78:et:ft=help:norl:
