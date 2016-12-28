@@ -4,10 +4,11 @@ Author:  Johannes Schickling <http://schickling.me>
 License: Same terms as Vim itself (see |license|)
 
                                                 *:BufOnly*
-:BufOnly               delete all buffers but the current one.  
-
-                                                *:BufOnly*
-:BufOnly myBuffer      delete all buffers but the current one.  
+:BufOnly[!] [myBuffer]    Unload all buffers except the supplied buffer
+                          name/number [myBuffer] (default: current buffer).
+                          If the buffer to be unloaded was changed, it will
+                          fail, unless when [!] is specified, in which case
+                          changes are lost.
 
 Aliases: `:Bonly`, `:BOnly`, `:Bufonly`
 
