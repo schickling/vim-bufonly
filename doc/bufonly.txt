@@ -1,0 +1,15 @@
+*bufonly.txt* Delete all the buffers except the current buffer
+
+Author:  Johannes Schickling <http://schickling.me>
+License: Same terms as Vim itself (see |license|)
+
+                                                *:BufOnly*
+:BufOnly[!] [myBuffer]    Unload all buffers except the supplied buffer
+                          name/number [myBuffer] (default: current buffer).
+                          If the buffer to be unloaded was changed, it will
+                          fail, unless when [!] is specified, in which case
+                          changes are lost.
+
+Aliases: `:Bonly`, `:BOnly`, `:Bufonly`
+
+ vim:tw=78:et:ft=help:norl:
